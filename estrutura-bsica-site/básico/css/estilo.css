@@ -1,0 +1,94 @@
+.site-header {
+  background-color: rgb(6, 58, 136);
+  padding: 10px;
+}
+
+.fonte-titulo {
+  text: 12px Arial sans-serif;
+  color: rgb(198, 202, 253);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.site-main {
+  padding: 15px;
+}
+
+.content {
+  background-color: rgb(192, 219, 255);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 2%;
+}
+
+.site-footer {
+  background-color: rgb(192, 219, 255);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+.galeria{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.grid-fotos{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+.paes{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.grid-fotos img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(136, 184, 247);
+}
+
+.header-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-titulo{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo{
+  width: 60px;
+}
+
+.menu a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
